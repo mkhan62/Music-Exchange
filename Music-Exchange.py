@@ -1,4 +1,4 @@
-from flask import Flask
+from flask import Flask, render_template
 from flask import request
 
 app = Flask(__name__)
@@ -6,7 +6,8 @@ app = Flask(__name__)
 
 @app.route('/')
 def hello_world():
-    return 'Hello World!'
+    mytodos = ["Hi, this is a todo", "Hi, this is a todo", "Hi, this is a todo", "Hi, this is a todo"]
+    return render_template('/Pages/index.html', todos = mytodos)
 
 @app.route('/hello')
 def hello():
