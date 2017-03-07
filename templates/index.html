@@ -19,17 +19,29 @@
             <div>
 
                 <div class="StockItem">
-                    <div>Stock Price:&nbsp</div><div>12345</div>
+                    <div>Stock Price:&nbsp</div><div>{{ song.price }}</div>
                 </div>
                 <div class="StockItem">
-                    <div> Name of Track:&nbsp</div><div>ed sheeran dive</div>
+                    <div> Name of Track:&nbsp</div><div>{{ song.name }}</div>
+                </div>
+                <div class="StockItem">
+                    <div> Artist:&nbsp</div><div>{{ song.artist }}</div>
                 </div>
                 <div class="StockItem">
                     <div>Quantity:&nbsp</div><div>4562</div>
                 </div>
-                <button>Buy</button>
+                <script type="text/javascript">
+                    function buttonClick() {
+                        $.get()
+                    }
+                </script>
+                <button onclick="">Buy</button>
             </div>
     </div>
+
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="{{
+  url_for('static', filename='jquery.js') }}">\x3C/script>')</script>
 
 </body>
 </html>
