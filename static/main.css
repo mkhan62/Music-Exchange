@@ -12,3 +12,8 @@ h1 {
     font-family: 'Lobster Two', cursive;
 
 }
+
+.StockItem {
+    display: flex;
+
+}
