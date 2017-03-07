@@ -1,7 +1,7 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster+Two|Raleway');
 
 body {
-    margin-left: auto;
-    margin-right: auto;
+
     padding: 40px;
     background: white;
     font-family: 'Raleway', sans-serif;
@@ -11,4 +11,21 @@ h1 {
 
     font-family: 'Lobster Two', cursive;
 
+}
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.search input{
+    width: 65%;
+    height: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.search-button {
+    width: 100px;
+    height: 52px;
 }
