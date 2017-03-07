@@ -7,7 +7,7 @@ app = Flask(__name__)
 @app.route('/')
 def hello_world():
     mytodos = ["Hi, this is a todo", "Hi, this is a todo", "Hi, this is a todo", "Hi, this is a todo"]
-    return render_template('/Pages/index.html', todos = mytodos)
+    return render_template('/index.html', todos = mytodos)
 
 @app.route('/hello')
 def hello():
